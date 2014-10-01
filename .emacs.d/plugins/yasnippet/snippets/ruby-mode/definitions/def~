@@ -1,0 +1,7 @@
+# name: def ... end
+# contributor: hitesh <hitesh.jasani@gmail.com>
+# key: module
+# --
+def $1
+  $0
+end

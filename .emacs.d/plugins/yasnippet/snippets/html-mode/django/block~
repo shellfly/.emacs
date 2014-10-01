@@ -1,0 +1,7 @@
+# contributor : shellfly <shell0fly@gmail.com>
+# name : {% block ... %}...{% endblock %}
+# key: block
+# --
+{% block $1 %}
+   $2     
+{% endblock %}        

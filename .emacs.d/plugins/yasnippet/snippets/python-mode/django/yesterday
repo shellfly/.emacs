@@ -1,0 +1,6 @@
+# -*- coding: utf-8 -*-
+# name:yesterday = ... 
+# key: djyesday
+# --
+yesterday = datetime.date.today() - datetime.timedelta(days=1)
+$0

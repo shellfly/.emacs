@@ -1,0 +1,7 @@
+# name: module ... end
+# contributor: hitesh <hitesh.jasani@gmail.com>
+# key: module
+# --
+module $1
+  $0
+end

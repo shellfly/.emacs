@@ -1,0 +1,7 @@
+# name: do ... end
+# contributor: hitesh <hitesh.jasani@gmail.com>
+# key: do
+# --
+do $1
+  $0
+end

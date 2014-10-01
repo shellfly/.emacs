@@ -1,0 +1,6 @@
+# -*- coding: utf-8 -*-
+# name: 
+# key: djtoday
+# --
+today = datetime.date.today()
+$0

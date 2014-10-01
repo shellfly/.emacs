@@ -1,0 +1,10 @@
+# name: Asm Template 
+# key: asm-template
+# --
+.section .data
+
+.section .bss
+
+.section .text
+.global  main
+main:

@@ -1,0 +1,9 @@
+# contributor : shellfly <shell0fly@gmail.com>
+# name : {% if ... %}...{% else %}...{% endif %}
+# key : ifelse
+# --
+{% if $1 %}
+  $2
+{% else %}    
+   $3
+{% endif %} 

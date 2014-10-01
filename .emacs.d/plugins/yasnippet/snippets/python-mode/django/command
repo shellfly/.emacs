@@ -1,0 +1,16 @@
+# -*- coding: utf-8 -*-
+# name: class Command(BaseCommand):... 
+# key: djcmd
+# --
+import datetime
+
+from common.management.base import BaseCommand
+from optparse import make_option
+
+class Command(BaseCommand):
+    option_list = BaseCommand.option_list + (
+        
+    )
+
+    def handle(self, *args, **options):
+        $0

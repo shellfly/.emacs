@@ -1,0 +1,5 @@
+# contributor : shellfly <shell0fly@gmail.com>
+# name : {% blocktrans %}...{% endblocktrans %}
+# key : blocktrans
+# --
+{% blocktrans %}$1{% endblocktrans %}
