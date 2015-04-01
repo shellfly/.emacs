@@ -105,3 +105,19 @@
 
 (setq auto-mode-alist
     (cons '("\\.scss" . css-mode) auto-mode-alist))
+
+;; Django
+(defun goto-template()
+"Jump to correspondence Django template file"
+(interactive)
+(let (tmplName projectDir appName)
+  (setq projectDir "/home/shellfly/project/src")
+  (setq tmplName (thing-at-point 'filename))
+  (setq appName (car (split-string tmplName "/")))
+  (find-file (concat
+               (file-name-as-directory projectDir)
+               (file-name-as-directory appName)
+               (file-name-as-directory "templates")
+               tmplName))))
+
+(global-set-key (kbd "C-x g") 'goto-template)
